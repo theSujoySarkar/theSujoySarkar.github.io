@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html>
-<!-- <meta http-equiv="Refresh" content="0; url='https://sujoy.me" /> -->
-  <style>
-    * {
-      font-family: "Lucida Console", "Courier New", monospace;
-      color:#00008b;
-      font-weight: bold;
-      text-align:center;
-    }
-  </style>
-<body>
-  <?php
-// PHP permanent URL redirection
+<?php
 header("Location: https://sujoy.me", true, 301);
 exit();
 ?>
-<h2>You will be redirected to Sujoy.me soon!</h2>
-<p>If nothing happend, click below</p>
-<button onclick="myFunction()">go to Sujoy.me</button>
-<script>
-function myFunction() {
-  location.replace("https://sujoy.me")
-}
-</script>
-</body>
-</html>
